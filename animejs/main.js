@@ -44,6 +44,7 @@ anime({
     ],
     rotate: {
         value: '1turn',
-        easing: 'easeInOutSine'
+        easing: 'easeInOutSine',
+        delay:3000
     }
 });
