@@ -1,57 +1,66 @@
-<html>	
-	<head>
-	<link rel="stylesheet" href="coverflow.css" />
-	<link rel="stylesheet" href="Mystyle.css" />
-	<script src="jquery.min.js"></script>
-	<script src="sly.min.js"></script>
-<script src="coverflow.js"></script>
-	<meta name="viewport" content="width=device-width" />
-	
-	</head>
-	
-	
-	<body>
-	<div class="wrap" id="coverflow1">
-	
-	<div class="scrollbar">
-	<div class="handle">
-	<div class="mousearea"></div>
-	</div>
-	</div>
-	
-	<div class="frame coverflow">
-	<ul class="clearfix">
-	<li>Holder</li>
-	</ul>
-	</div>
-	
-	<ul class="pages"></ul>
-	
-	</div>
-	
-	<div>
-	<img align ="right" src= "mainlogo.jpg"><br><br><p><br>
-	<hr width= "1000">
-	<a href= autobazzar.html>Home</a> | <a href= "aboutus.html">About Us</a> | <a href= "finddealer.html"> Find a Dealer </a> | <hr width= "1000">
-	<h1> THE KAREN CAR BAZZAR</h1>
-	<p>
-	<UL class="navbar">
-	<li>Home</li>
-	<li>About Us</li>
-	<li>Find a Dealer</li>
-	</UL>
-	<table border ="5">
-	<tr><td><imgsrc="AUDI A4.jpg"></td><td><imgsrc="AUDI.jpg">
-	</td><td><imgsrc= "DODGE CHALLENGER.jpg"</td></tr>
-	<tr><td align = center><font type= "comic sans" color = "green">
-	Audi A4 2011 model Price 11500 usd CIF mombasa</font></td>
-	<td><font type= "comic sans" color = "green">Audi R8 coupe 2013 model Price 17000 usd CIF Mombasa</font></td>
-	<td><font type= "comic sans" color = "green">The Dodge Chellenger 1999 model price 15000 usd CIF mombasa</font></td></tr>
-	<tr><td><imgsrc= "MUSTANG.jpg"></td><td><imgsrc= "bmw.jpg"></td><td><imgsrc="LAMBOGINI.jpg"></td></tr>
-	<tr><td>The Ford Mustang 500 price 18340 usd CIF Mombasa</td>
-	<td>The BMW M3 Convertible 2009 model price 20110 usd CIF Mombasa </td>
-	<td>Lambigini Matador 2009 model Price 23400 usd CIF Mombasa</td></tr>
-	</table>
-	<p>
-	our offices are at the juction towards Hardy Police Station 
-	</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Album Store</title>
+
+    <!-- Link CSS Files -->
+    <link rel="stylesheet" href="coverflow.css">
+    <link rel="stylesheet" href="mystyle.css"> 
+
+    <!-- Link JavaScript Files -->
+    <script src="jquery.min.js"></script>
+    <script src="sly.min.js"></script>
+    <script src="coverflow.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <h1>🎵 My Music Hub</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="album.html">Albums</a>
+            <a href="artist.html">Artists</a>
+            <a href="trending.html">Trending</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Scrolling Coverflow Section -->
+    <section class="latest-albums">
+        <h2>Latest Albums</h2>
+        <div class="wrap" id="coverflow1">
+            <div class="scrollbar">
+                <div class="handle">
+                    <div class="mousearea"></div>
+                </div>
+            </div>
+
+            <div class="frame coverflow">
+                <ul class="clearfix">
+    
+                    <li><img src="album1.jpg" alt="Album 1"><p>Album 1 - Kehlani Remix</p></li>
+                    <li><img src="album3.jpg" alt="Album 3"><p>Album 3 - Kehlani</p></li>
+                    <li><img src="album4.jpg" alt="Album 4"><p>Album 4 - Artist 4</p></li>
+                    <li><img src="album5.jpg" alt="Album 5"><p>Album 5 - Artist 5</p></li>
+                </ul>
+            </div>
+
+            <ul class="pages"></ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="position: fixed-bottom;">
+        <p>&copy; 2025 My Music Hub | Follow us on: 
+            <a href="#">🎵 Spotify</a> | 
+            <a href="#">🎥 YouTube</a> | 
+            <a href="#">📸 Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
